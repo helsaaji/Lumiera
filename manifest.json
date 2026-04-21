@@ -1,8 +1,8 @@
 {
-  "id": "/",
-  "name": "Brand Builder Kit",
-  "short_name": "PWA Demo",
-  "description": "Aplikasi Branding UMKM berisi template dasar Progressive Web App dengan dukungan offline dan installable.",
+  "id": "./",
+  "name": "SkillBridge",
+  "short_name": "SkillB",
+  "description": "Aplikasi SkillBridge menghubungkan skill pencari kerja dengan kebutuhan perusahaan.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -12,44 +12,26 @@
   "lang": "id",
   "icons": [
     {
-      "src": "./icons/icon-192x192.png",
+      "src": "icons/icon-192x192-A.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "./icons/icon-512x512.png",
+      "src": "icons/icon-512x512-B.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "./icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "./icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "type": "image/png"
     }
   ],
   "screenshots": [
     {
-      "src": "./icons/screenshot1.png",
-      "sizes": "1442x3090",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "PWA Template — Tampilan Mobile"
+      "src": "icons/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
     },
     {
-      "src": "./icons/screenshot2.png",
-      "sizes": "1442x3090",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "PWA Template — Tampilan Mobile 2"
+      "src": "icons/screenshot2.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
     }
   ],
   "shortcuts": [
@@ -59,9 +41,8 @@
       "url": "./index.html",
       "icons": [
         {
-          "src": "./icons/icon-192x192.png",
-          "sizes": "192x192",
-          "type": "image/png"
+          "src": "icons/icon-192x192-A.png",
+          "sizes": "192x192"
         }
       ]
     }
